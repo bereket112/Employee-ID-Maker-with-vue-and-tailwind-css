@@ -15,7 +15,7 @@
       <p class="text-gray-700">{{ phone }}</p>
       <div class="mt-4p-2 rounded-lg shadow-inner">
         <p class="font-semibold">{{ companyName }}</p>
-        <p class="font-semibold"> possition: {{ roles }}</p>
+        <!-- <p class="font-semibold"> possition: {{ roles }}</p> -->
         <p class="text-sm text-gray-600">{{ address }}</p>
         <div class="flex space-x-4 mt-2  bg-white ">
           <template>

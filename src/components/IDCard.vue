@@ -1,7 +1,7 @@
 <template>
   <div class="sm: flex flex-col overflow-none  shadow-emerald-950">
      <div>
-      <h2 class="w-full justify-center items-center">Employee ID Card</h2>
+      
     
   <div :class="['p-4 rounded-lg shadow-lg relative flex items-center', roleClass]">
 
@@ -11,23 +11,15 @@
     <img :src="image" alt="Employee Image" class="w-24  rounded-sm h-full border-[1px] border-yellow-500 shadow-md mr-[7px]">
     <div >
       
-      <h2 class="text-xl font-bold flex flex-row"><p class=" underline mr-2 font-sans text-sm ">Name:</p>{{ name }}</h2>
-      <p class="text-gray-700">{{ phone }}</p>
+      <h2 class="text-gray-700  flex flex-row"><p class="  mr-2 font-sans text-sm ">Full Name:</p>{{ name }}</h2>
+      <h2 class="text-gray-700 flex flex-row"><p class="  mr-2 font-sans text-sm "> phone:</p>{{ phone }}</h2>
       <div class="mt-4p-2 rounded-lg shadow-inner">
-        <p class="font-semibold">{{ companyName }}</p>
+        <h2 class="text-gray-700 flex flex-row "><p class="  mr-2 font-sans text-sm ">company Name:</p>{{ companyName }}</h2>
         <!-- <p class="font-semibold"> possition: {{ roles }}</p> -->
-        <p class="text-sm text-gray-600">{{ address }}</p>
-        <div class="flex space-x-4 mt-2  bg-white ">
-          <template>
-  <div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-      <path d="M12 2L2 22h20L12 2z"/>
-    </svg>
-  </div>
-</template>
-
+        <h2 class="text-sm text-gray-600 flex flex-row "><p class="  mr-2 font-sans text-sm ">company address:</p>{{ address }}</h2>
+        <!-- <div class="flex space-x-4 mt-2  bg-white ">
           <img v-for="link in socialLinks" :key="link.name" :src="link.image" :alt="link.name" class="w-6 h-6">
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

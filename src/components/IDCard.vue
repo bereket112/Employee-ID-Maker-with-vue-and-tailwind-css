@@ -11,7 +11,7 @@
     <img :src="image" alt="Employee Image" class="w-24  rounded-sm h-full border-[1px] border-yellow-500 shadow-md mr-[7px]">
     <div >
       
-      <h2 class="text-gray-700font-bold flex flex-row"><p class="  mr-2 font-sans text-sm ">Full Name:</p>{{ name }}</h2>
+      <h2 class="text-gray-700  flex flex-row"><p class="  mr-2 font-sans text-sm ">Full Name:</p>{{ name }}</h2>
       <h2 class="text-gray-700 flex flex-row"><p class="  mr-2 font-sans text-sm "> phone:</p>{{ phone }}</h2>
       <div class="mt-4p-2 rounded-lg shadow-inner">
         <h2 class="text-gray-700 flex flex-row "><p class="  mr-2 font-sans text-sm ">company Name:</p>{{ companyName }}</h2>

@@ -13,8 +13,9 @@
       
       <h2 class="text-gray-700  flex flex-row"><p class="  mr-2 font-sans text-sm ">Full Name:</p>{{ name }}</h2>
       <h2 class="text-gray-700 flex flex-row"><p class="  mr-2 font-sans text-sm "> phone:</p>{{ phone }}</h2>
-      <div class="mt-4p-2 rounded-lg shadow-inner">
+      <div class="">
         <h2 class="text-gray-700 flex flex-row "><p class="  mr-2 font-sans text-sm ">company Name:</p>{{ companyName }}</h2>
+        <h2 class="text-gray-700 flex flex-row "><p class="  mr-2 font-sans text-sm ">Role:</p>{{ role }}</h2>
         <!-- <p class="font-semibold"> possition: {{ roles }}</p> -->
         <h2 class="text-sm text-gray-600 flex flex-row "><p class="  mr-2 font-sans text-sm ">company address:</p>{{ address }}</h2>
         <!-- <div class="flex space-x-4 mt-2  bg-white ">
